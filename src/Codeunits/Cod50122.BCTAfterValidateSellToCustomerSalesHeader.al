@@ -19,6 +19,8 @@ codeunit 50122 "BCT Payment Method Mgt."
             Message('Nova poruka u branch1'); // <B/>
             Message('Nova poruka u branch2'); // <B/>
         end;
+
+        Message('Hello!');
     end;
 
     var
