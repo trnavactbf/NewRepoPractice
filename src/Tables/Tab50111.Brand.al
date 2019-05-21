@@ -16,6 +16,12 @@ table 50111 Brand
             DataClassification = ToBeClassified;
             Caption = 'Description';
         }
+
+        field(3; Active; Boolean)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Active Brand';
+        }
     }
 
     keys

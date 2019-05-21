@@ -17,6 +17,8 @@ codeunit 50122 "BCT Payment Method Mgt."
             Rec.validate("Brand Code", Customer."Brand Code");  // <LM/>
             Message('Poruka');//<B/>
         end;
+
+        Message('Hello!');
     end;
 
     var
