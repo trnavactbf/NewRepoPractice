@@ -16,6 +16,8 @@ codeunit 50122 "BCT Payment Method Mgt."
             Rec.Validate("Payment Method Code", Customer."Payment Method Code");
             Rec.validate("Brand Code", Customer."Brand Code");  // <LM/>
             Message('Poruka');//<B/>
+            Message('Nova poruka u branch1'); // <B/>
+            Message('Nova poruka u branch2'); // <B/>
         end;
     end;
 
