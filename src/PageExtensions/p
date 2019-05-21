@@ -1,0 +1,7 @@
+pageextension 50134 "Customeraaa" extends "Customer List"
+{
+     trigger OnOpenPage();
+    begin
+        Message('biljana');
+    end;
+}
