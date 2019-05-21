@@ -11,10 +11,10 @@ codeunit 50122 "BCT Payment Method Mgt."
         Customer: Record Customer;
     begin
         IF Customer.GET(Rec."Sell-to Customer No.") then begin
-            //IF (Rec."Sell-to Customer No." <> Rec."Bill-to Customer No.") then begin
+            //IF (Rec."Sell-to Customer No." <> Rec."Bill-to Customer No.") then begin // <LM/>
             Rec.Validate("Payment Terms Code", Customer."Payment Terms Code");
             Rec.Validate("Payment Method Code", Customer."Payment Method Code");
-            Rec.validate("Brand Code", Customer."Brand Code");
+            Rec.validate("Brand Code", Customer."Brand Code");  // <LM/>
         end;
     end;
 
